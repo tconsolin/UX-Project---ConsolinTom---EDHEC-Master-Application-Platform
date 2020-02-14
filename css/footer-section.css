@@ -1,0 +1,36 @@
+
+.footer-section-container{
+  background-color: #f1f9ff;
+  padding: 20px;
+}
+
+.footer-section{
+  text-align: left;
+  padding: 0px;
+  margin: 0px;
+  display: grid;
+  grid-template-columns: 273px 130px;
+  justify-content: space-between;
+}
+
+
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+  text-align: right;
+}
+
+
+.list-inline li{
+  display: inline;
+  padding:10px;
+}
+
+.list-inline i {
+  font-size: 20px;
+  color: gray;
+}
+
+.list-inline i:hover{
+  color: black;
+}

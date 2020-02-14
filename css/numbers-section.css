@@ -1,0 +1,57 @@
+.numbers-section-conntainer{
+  background-color: #f1f9ff;
+  padding: 60px;
+}
+
+
+.numbers-section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1302px;
+    margin: 20px auto;
+    justify-content: space-between;
+    background-color: #f1f9ff;
+
+}
+
+@media (max-width: 980px){
+    .numbers-section{
+        width: 800px;
+    }
+}
+
+@media (max-width: 800px){
+    .numbers-section{
+        width: 700px;
+    }
+}
+
+
+@media (max-width: 700px){
+    .numbers-section{
+        width: 330px;
+    }
+    .numbers-section-conntainer{
+        padding: 50px;
+}
+
+}
+
+
+.number {
+    display: flex;
+    margin: 20px auto;
+    justify-content: space-between;
+
+}
+
+
+
+
+
+
+
+
+
+
+
